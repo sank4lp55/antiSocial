@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "124787116807",
+    "project_id": "antisocial-ef3fb",
+    "storage_bucket": "antisocial-ef3fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124787116807:android:cc51862016fc40d0acd3a2",
+        "android_client_info": {
+          "package_name": "com.example.antisocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124787116807-crqunmduqgnnl46tkurt21f3pm24fut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_wAj3oCSAbMFucqPrsyxH2sLP7DBmxgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124787116807-crqunmduqgnnl46tkurt21f3pm24fut8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
