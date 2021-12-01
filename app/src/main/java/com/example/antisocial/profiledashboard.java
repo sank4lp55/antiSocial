@@ -46,14 +46,17 @@ public class profiledashboard extends AppCompatActivity {
 
     public void signout(View view)
     {
-        Intent intent=new Intent(profiledashboard.this,Loginpage.class);
-        startActivity(intent);
+        Intent i = new Intent(profiledashboard.this, Loginpage.class);
+// set the new task and clear flags
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(i);
     }
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_profiledashboard);
         imageView=findViewById(R.id.cover);
         imageView2=findViewById(R.id.changeCover);

@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".Dashboard">
+    tools:context=".Dashboard"
+    android:background="@drawable/backfor">
 
 
     <androidx.cardview.widget.CardView
@@ -31,7 +32,7 @@
             android:layout_height="match_parent"
             android:onClick="myprofile"
             android:scaleType="centerCrop"
-            android:src="@drawable/profile"></ImageView>
+            android:src="@drawable/empty"></ImageView>
 
 
     </androidx.cardview.widget.CardView>
