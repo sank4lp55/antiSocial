@@ -81,12 +81,32 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+
         if(phones.isEmpty())
         {
             editTextPhone.setError("Phone no. is required.");
             editTextPhone.requestFocus();
             return;
         }
+        int l=phones.length();
+        int ff=0;
+        for (int i=0;i<l;i++)
+        {
+            char ch=phones.charAt(i);
+            if(ch<48||ch>57)
+            {
+                ff=1;
+                break;
+            }
+        }
+        if(ff==1||l<10||l>10)
+        {
+            editTextPhone.setError("Phone no. is invalid");
+            editTextPhone.requestFocus();
+            return;
+        }
+
+
         if(passwords.isEmpty())
         {
             editTextPassword.setError("Password is required");
